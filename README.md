@@ -4,11 +4,11 @@
 
 |**Tipo de Projeto**|**Modelo Selecionado**|**Linguagem**|
 |--|--|--|
-|Classificação de Imagens| ??? | ??? |
+|Classificação de Imagens| resnet34 | Python |
 
 ## Performance
 
-O modelo treinado possui performance de **??%**.
+O modelo treinado possui performance de **95,24%**.
 
 ### Output do bloco de treinamento
 
@@ -16,23 +16,35 @@ O modelo treinado possui performance de **??%**.
   <summary>Click to expand!</summary>
   
   ```text
-    Você deve colar aqui a saída do bloco de treinamento do notebook, contendo todas as épocas e saídas do treinamento
+Epoch 0/2
+----------
+Iterating through data...
+train Loss: 0.4185 Acc: 0.8470
+Iterating through data...
+valid Loss: 0.0502 Acc: 0.9845
+
+Epoch 1/2
+----------
+Iterating through data...
+train Loss: 0.2108 Acc: 0.9324
+Iterating through data...
+valid Loss: 0.0497 Acc: 0.9806
+
+Epoch 2/2
+----------
+Iterating through data...
+train Loss: 0.1498 Acc: 0.9524
+Iterating through data...
+valid Loss: 0.0191 Acc: 0.9961
+
+Training complete in 1m 18s
+Best val Acc: 0.996124
   ```
 </details>
 
 ### Evidências do treinamento
-
-Nessa seção você deve colocar qualquer evidência do treinamento, como por exemplo gráficos de perda, performance, matriz de confusão etc.
-
-Exemplo de adição de imagem:
-![Descrição](https://picsum.photos/seed/picsum/500/300)
+![Descrição](./assets/evidencia_treinamento.PNG)
 
 ## Roboflow
 
-Nessa seção deve colocar o link para acessar o dataset no Roboflow
-
-Exemplo de link: [Nome do link](google.com)
-
-## HuggingFace
-
-Nessa seção você deve publicar o link para o HuggingFace
+[dataset de imagens preprocessadas no roboblow](https://app.roboflow.com/cesar-cg0ee/boardgames)
